@@ -6,8 +6,13 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B8E3CAAA30A6CE88001E24F4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B8E3CAA930A6CE7B001E24F4 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B8E3CA9130A6CDCC001E24F4 /* To-do, but repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do, but repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E3CAA930A6CE7B001E24F4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,6 +48,7 @@
 		B8E3CA8830A6CDCC001E24F4 = {
 			isa = PBXGroup;
 			children = (
+				B8E3CAA930A6CE7B001E24F4 /* .gitignore */,
 				B8E3CA9330A6CDCC001E24F4 /* To-do, but repeat */,
 				B8E3CA9230A6CDCC001E24F4 /* Products */,
 			);
@@ -115,6 +121,7 @@
 		B8E3CA8F30A6CDCC001E24F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				B8E3CAAA30A6CE88001E24F4 /* .gitignore in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
