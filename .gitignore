@@ -1,6 +1,27 @@
 # Xcode
+#
 build/
+*.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/swiftpm/
 DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS System Files
+#
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Sensitive Configuration
+#
+Config.xcconfig
